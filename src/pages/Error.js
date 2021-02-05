@@ -1,12 +1,12 @@
 import React from 'react'
-// import Hero from '../components/Hero'
+import Hero from '../components/Hero'
 
-function Error() {
+function Errors() {
     return (
         <div>
-            Error
+            <Hero />
         </div>
     )
 }
 
-export default Error
+export default Errors
