@@ -33,6 +33,7 @@ export default withRoomConsumer(RoomContainer)
 //             {
 //                 value => {
 //                     const {rooms, loading, sortedRoom} = value
+//                     console.log(loading)
 //                     if(loading){
 //                         return <Loading />
 //                     }
