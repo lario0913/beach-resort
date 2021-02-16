@@ -13,6 +13,7 @@ function Room() {
                 </Banner>
             </Hero>
             <RoomContainer />
+            
         </>
     )
 }

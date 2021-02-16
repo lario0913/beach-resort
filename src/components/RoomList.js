@@ -1,5 +1,5 @@
 import React from 'react'
-import Room from '../pages/Room'
+import Room from './Room'
 
 function RoomList({rooms}) {
     if(rooms.length === 0){
