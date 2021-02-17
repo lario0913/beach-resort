@@ -34,6 +34,10 @@ function RoomFilter({rooms}) {
         return <option key={index} value={item}>{item}</option>
     })
 
+
+    // GET CAPACITY
+    
+
     return (
         <section className="filter-container">
             <Title title="search rooms" />
@@ -45,6 +49,20 @@ function RoomFilter({rooms}) {
                         name="type"
                         id="type"
                         value={type}
+                        className="form-control select"
+                        onChange={handleChange}
+                    >
+                        {types}
+                    </select>
+                </div>
+
+                {/* GUEST */}
+                <div className="form-group">
+                    <label htmlFor="capacity">room type</label>
+                    <select 
+                        name="capacity"
+                        id="capacity"
+                        value={capacity}
                         className="form-control select"
                         onChange={handleChange}
                     >
